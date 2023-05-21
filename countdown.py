@@ -37,3 +37,22 @@ def countdown(cn, n):
 
 
 countdown(cn=int(input('enter countdown number > ')), n=int(input('enter range (number) > ')))
+
+## A simple version
+# for secs in range(500, 0, -1):
+#     print(secs)
+#     time.sleep(1)
+#     if secs == 100 or secs == 200:
+#         n = 12
+#         for i in range(1, n + 1):
+#             print(' ' * n, end='')
+#             print('# ' * i)
+#             n -= 1
+#     elif secs == 300 or secs == 400:
+#         n = 13
+#         for a in range(1, n + 1):
+#             print(' ' * n, end='')
+#             print('% ' * a)
+#             n -= 1
+# print('Happy Birthday')
+
